@@ -1,0 +1,12 @@
+NODE a[100];
+int cnt = 0;
+
+void OnOrder(BiTree T)
+{
+    if(T)
+    {
+        OnOrder(T->lc); 
+        a[cnt++].value = T->value; 
+        OnOrder(T->rc);
+    }
+}
