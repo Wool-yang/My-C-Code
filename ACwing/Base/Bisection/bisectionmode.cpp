@@ -29,7 +29,7 @@ int bsearch2(int l, int r)
     }
     return l;
 } //[l,r]=>[l,mid-1],[mid,r]
-//浮点数二分模板
+//�?点数二分模板
 bool check(double mid)
 {
 }
@@ -37,7 +37,7 @@ bool check(double mid)
 double bsearch3(double l, double r)
 {
     while (r - l > eps)
-    { //eps为题目所给精度，可以往后推进两位保险
+    { //eps为�?�目所给精度，�?以往后推进两位保�?
         double mid = (l + r) / 2;
         if (check(mid))
             r = mid;
