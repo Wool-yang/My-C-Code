@@ -66,8 +66,28 @@ int main(){
             break;
     }
     int x = -1;
-    cout << (~x + 1);*/
+    cout << (~x + 1);
     string x = "dog cat cat dog";
     cout << x.substr(4, 3);
+    int n[2] = {1};
+    for(int i = 0;i < 2;i++)
+        cout << n[i] << endl;
+    int a[6][6];
+     for(int j = 1;j <= 5;j++)
+        {
+            for(int k = 1;k <= 5;k++)
+            {
+                scanf("%d", &a[j][k]);
+            }
+        }
+        for(int j = 1;j <= 5;j++)
+        {
+            for(int k = 1;k <= 5;k++)
+            {
+                printf("%d ", &a[j][k]);
+            }
+            cout << endl;
+        }*/
+    
     return 0;
 }
