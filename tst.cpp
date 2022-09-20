@@ -87,7 +87,15 @@ int main(){
                 printf("%d ", &a[j][k]);
             }
             cout << endl;
-        }*/
-    
+        }
+
+    unsigned char a;
+    a = 1;
+    a = a >> 2;
+    printf("%o", a);*/
+
+    int a = 0;
+    while(a++ < 4)
+        cout << a << endl;
     return 0;
 }

@@ -15,7 +15,7 @@ int main()
     {
         if (!st[i])
         {
-            primes[++cnt]=i;
+            primes[++cnt] = i;
             for (long long j = (long long int)i * (long long int)i; j <= n; j += i)
                 st[j] = true;
         }
